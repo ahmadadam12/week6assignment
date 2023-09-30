@@ -1,0 +1,19 @@
+GET http://localhost:3001/api/v1/register
+
+
+###POST Users
+POST http://localhost:3000/api/v1/register
+
+{
+    "userName":"adam",
+    "email": "adam@mail.com",
+    "password": "1234"
+}
+
+###Login
+POST http://localhost:3000/api/v1/login
+
+{
+    "email": "adam@mail.com",
+    "password": "123"
+}
